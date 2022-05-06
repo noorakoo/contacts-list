@@ -1,0 +1,40 @@
+:root {
+    --primary-white: white;
+    --primary-dark-grey: rgb(93, 121, 148);
+    --primary-light-grey: rgb(238, 238, 238);
+
+    --primary-font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 70%;
+    align-content: center;
+    margin: auto;
+}
+
+h1 {
+    font-family: var(--primary-font-family);
+    color: var(--primary-dark-grey);
+}
+
+th {
+    font-size: larger;
+    color: var(--primary-dark-grey);
+}
+
+th, td {
+    border: 2px solid var(--primary-white);
+    font-family: var(--primary-font-family);
+    background-color: var(--primary-light-grey);
+    padding: 10px 55px;
+}
+
+button {
+    padding: 2px 14px;
+    font-family: var(--primary-font-family);
+}
+
+.delbtn {
+    background-color: var(--primary-white);
+    padding: 0px;
+}

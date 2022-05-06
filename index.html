@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts list</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body onload="mouse()">
+        <div class="container">
+            <h1>Contacts</h1>
+
+            <table id="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Phone number</th>
+                    <th>Email</th>
+                    <th class="delbtn"></th>
+                </tr>
+                <tr>
+                    <td>Noora</td>
+                    <td>+358 45 123 4567</td>
+                    <td>noora@mail.com</td>
+                    <td class="delbtn"><input type="button" value="Delete" onclick="del(this)"></td>
+                </tr>
+                <tr>
+                    <td>Teemu</td>
+                    <td>+358 45 321 6549</td>
+                    <td>teemu@mail.com</td>
+                    <td class="delbtn"><input type="button" value="Delete" onclick="del(this)"></td>
+                </tr>
+                <tr>
+                    <td>Elina</td>
+                    <td>+358 45 789 4561</td>
+                    <td>elina@mail.com</td>
+                    <td class="delbtn"><input type="button" value="Delete" onclick="del(this)"></td>
+                </tr>
+            </table>
+            <br>
+            <input id="name" placeholder="name...">
+            <input id="number" placeholder="number...">
+            <input id="email" placeholder="email...">
+            <button onclick="add()">Add</button>
+        </div>
+    </body>
+</html>
